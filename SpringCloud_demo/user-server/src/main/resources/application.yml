@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3307/mydb01
+    username: root
+    password: 123
+  application:
+    name: user-service # 应用名称
+mybatis:
+  type-aliases-package: com.wimilee.userserver.pojo
+eureka:
+  client:
+    service-url: # EurekaServer地址
+      defaultZone: http://127.0.0.1:10080/eureka

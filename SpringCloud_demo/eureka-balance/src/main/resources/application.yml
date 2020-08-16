@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: eureka-balance # 应用名称
+eureka:
+  client:
+    service-url: # EurekaServer地址
+      defaultZone: http://127.0.0.1:10080/eureka
