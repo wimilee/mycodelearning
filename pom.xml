@@ -14,6 +14,8 @@
         <module>rabbitmq_learn</module>
         <module>dubbo-learn</module>
         <module>hutools-learn</module>
+        <module>dubbolearn</module>
+        <module>spring-learn</module>
     </modules>
 
     <properties>
